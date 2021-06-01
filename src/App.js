@@ -1,12 +1,12 @@
-import "./App.css";
-import { Contributors } from "./components/contributors";
+import './App.css'
+import { Contributors } from './components/contributors'
 
 function App() {
-  return (
-    <div className="App">
-      <Contributors />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Contributors />
+        </div>
+    )
 }
 
-export default App;
+export default App

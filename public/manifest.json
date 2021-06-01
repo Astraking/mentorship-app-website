@@ -1,8 +1,8 @@
 {
-  "short_name": "Mentorship Website",
-  "name": "A website Created for our Mentorship Programme",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "short_name": "Mentorship Website",
+    "name": "A website Created for our Mentorship Programme",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
 }

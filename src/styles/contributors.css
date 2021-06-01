@@ -1,27 +1,27 @@
 .contributor-page {
-  text-align: center;
+    text-align: center;
 }
 
 .contributor-panel {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .contributor-panel img {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .contributor a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .contributor-panel .contributor {
-  margin: 1rem;
+    margin: 1rem;
 }
 
 .contributor-details {
-  text-transform: capitalize;
-  text-align: center;
+    text-transform: capitalize;
+    text-align: center;
 }
