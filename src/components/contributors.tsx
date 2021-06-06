@@ -17,7 +17,7 @@ const contributors: GitHubProfileProps[] = [
     },
     {
         userName: 'EJAyarma',
-        role: 'Developer',
+        role: 'Front-End Engineer',
     },
 ];
 
