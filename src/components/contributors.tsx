@@ -18,7 +18,7 @@ const contributors: GitHubProfileProps[] = [
     {
         userName: 'EJAyarma',
         role: 'Developer',
-    }
+    },
 ];
 
 export const GitHubProfile = (props: GitHubProfileProps) => {
