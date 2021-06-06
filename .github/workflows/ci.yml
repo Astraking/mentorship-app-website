@@ -1,0 +1,21 @@
+name: Build Job
+
+on: [push]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v1
+            - name: Install Job
+              run: npm i
+
+            - name: Test Job
+              run: npm test
+
+            - name: Build Job
+              run: npm build
+
+            - name: format linter
+              run: npm run prettier
