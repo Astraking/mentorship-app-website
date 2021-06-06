@@ -17,7 +17,7 @@ const contributors: GitHubProfileProps[] = [
     },
 ];
 
-const GitHubProfile = (props: GitHubProfileProps) => {
+export const GitHubProfile = (props: GitHubProfileProps) => {
     const [name, setName] = React.useState(undefined);
     const [location, setLocation] = React.useState(undefined);
     const { userName, role } = props;
@@ -42,10 +42,12 @@ const GitHubProfile = (props: GitHubProfileProps) => {
                 href={`https://github.com/${userName}`}
                 rel="noreferrer"
                 target="_blank"
+                className="contibutor-profile-link"
             >
                 <img
                     alt={`GitHub of ${name} `}
                     src={`https://github.com/${userName}.png?size=200`}
+                    className="contibutor-profile-image"
                 />
                 <div className="contributor-details">
                     <p>{name}</p>
@@ -70,9 +72,9 @@ export const Contributors = () => {
             <div className="contributor-panel">
                 {contributors.map((contributor, index) => (
                     <GitHubProfile
-                        userName={contributor.userName}
                         key={index}
                         role={contributor.role}
+                        userName={contributor.userName}
                     />
                 ))}
             </div>
