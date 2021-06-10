@@ -23,6 +23,10 @@ const contributors: GitHubProfileProps[] = [
         userName: 'esmond-adjei',
         role: 'Front-End Engineer',
     },
+    {
+        userName: 'yeboah326',
+        role: 'Back-End Engineer',
+    },
 ];
 
 export const GitHubProfile = (props: GitHubProfileProps) => {
