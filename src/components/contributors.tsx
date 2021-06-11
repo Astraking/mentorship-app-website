@@ -15,6 +15,10 @@ const contributors: GitHubProfileProps[] = [
         userName: 'Kumbong',
         role: 'Tech Lead',
     },
+    {
+        userName: 'Jemy-dev',
+        role: 'Student',
+    },
 ];
 
 export const GitHubProfile = (props: GitHubProfileProps) => {
@@ -50,9 +54,9 @@ export const GitHubProfile = (props: GitHubProfileProps) => {
                     className="contibutor-profile-image"
                 />
                 <div className="contributor-details">
-                    <p>{name}</p>
+                    <p>{name} </p>
                     <p>
-                        <strong>{role}</strong>
+                        <strong>{role} </strong>
                     </p>
                     <p>
                         <em>{location}</em>
@@ -81,3 +85,41 @@ export const Contributors = () => {
         </div>
     );
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
